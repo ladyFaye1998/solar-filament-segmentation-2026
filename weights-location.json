@@ -1,0 +1,13 @@
+{
+  "weights/long565.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/long565.pt",
+  "weights/full707-neighbours.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/full707-neighbours.pt",
+  "weights/deploy707.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/deploy707.pt",
+  "weights/allann565-s1.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/allann565-s1.pt",
+  "weights/allann565-s2.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/allann565-s2.pt",
+  "weights/union565.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/union565.pt",
+  "weights/v8x565.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/v8x565.pt",
+  "weights/maskrcnn707.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/maskrcnn707.pt",
+  "weights/b0a.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/b0a.pt",
+  "weights/b0b.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/b0b.pt",
+  "weights/r34.pt": "https://github.com/ladyFaye1998/solar-filament-segmentation-2026/releases/download/owned-baseline-20261106/r34.pt"
+}

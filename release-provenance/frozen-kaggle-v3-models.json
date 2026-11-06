@@ -1,0 +1,160 @@
+{
+  "detectors": [
+    {
+      "name": "long565",
+      "family": "yolo",
+      "resolution": 2048,
+      "path": "weights/long565.pt",
+      "sha256": "c4a86ea99ec1cf12b7e63af29db528bf6b90dc44b6b7c700cf801802597afd13",
+      "bytes": 92771972
+    },
+    {
+      "name": "full707-neighbours",
+      "family": "yolo",
+      "resolution": 2048,
+      "path": "weights/full707-neighbours.pt",
+      "sha256": "fc2b3e7842481529f1a380737ad10c808c631da895776e7e64c3ab4c2742c720",
+      "bytes": 92761540
+    },
+    {
+      "name": "deploy707",
+      "family": "yolo",
+      "resolution": 1536,
+      "path": "weights/deploy707.pt",
+      "sha256": "c0eeef3f12d4c8ee280ff1a30e951c78a537e01b110b5c73f02b7e2116c27e85",
+      "bytes": 92539076
+    },
+    {
+      "name": "allann565-s1",
+      "family": "yolo",
+      "resolution": 1536,
+      "path": "weights/allann565-s1.pt",
+      "sha256": "b0c35df8b6777c217912cc1b74fcef283dbe1e3b3f6c2471b200c0f0e61226f0",
+      "bytes": 92537924
+    },
+    {
+      "name": "allann565-s2",
+      "family": "yolo",
+      "resolution": 1536,
+      "path": "weights/allann565-s2.pt",
+      "sha256": "178927faf51281ebd1997012f8a85a9018f068ef12e03df0ddc8706a2e387ebf",
+      "bytes": 92537924
+    },
+    {
+      "name": "union565",
+      "family": "yolo",
+      "resolution": 1536,
+      "path": "weights/union565.pt",
+      "sha256": "efe0cf1dfc0b838942ef39cf03c978a6fe0df9bc00e042ca6a41ecee84f67fb1",
+      "bytes": 92542404
+    },
+    {
+      "name": "v8x565",
+      "family": "yolo",
+      "resolution": 1536,
+      "path": "weights/v8x565.pt",
+      "sha256": "291d4e50a8cf1edeb579dbf689e35f96405736f604459ac95b3708aefb8e3620",
+      "bytes": 144190788
+    },
+    {
+      "name": "maskrcnn707-fourflip",
+      "family": "maskrcnn",
+      "resolution": 2048,
+      "path": "weights/maskrcnn707.pt",
+      "sha256": "17516a80bfab51d33d551a00958d4a54d4e5b96d724de90822cb452c88bd2194",
+      "bytes": 183931619
+    }
+  ],
+  "refiners": {
+    "b0a": {
+      "path": "weights/b0a.pt",
+      "sha256": "eb18524885334d7017a91b39291821a8eeb960e691f4f017d0a40ece53a91e92",
+      "bytes": 19661389
+    },
+    "b0b": {
+      "path": "weights/b0b.pt",
+      "sha256": "3877311857e51f0008b5a45565375a065f9642826443145f0606eef9d41b743c",
+      "bytes": 19661389
+    },
+    "r34": {
+      "path": "weights/r34.pt",
+      "sha256": "d4f460017148d0d8a12107c07c26e9d8421b15b88592b90914039d7d9e39dcf8",
+      "bytes": 90416311
+    }
+  },
+  "code_sha256": {
+    "owned_reproduction.py": "d62b70e43fd03d567b00a8408856a5e8ce8fc09936f68e5b648c8102a9d10e30",
+    "training_walkthrough.py": "f962ef02eab7a5c395e550da24e22b2cc7858874f101c457ac37515de621a2c1",
+    "bundle_bootstrap.py": "d95c53e92f0af25517d99c8f844a62637bbd67caa13d062dd8b6ca416efa216d",
+    "notebook_inference.py": "cb39a95b3b1afa6320ebc9192de29c8e75e237a8f8eb9bae67e6cc0c3e337016",
+    "solar/anchor_ensemble.py": "79bffbf1630684f455e028283a861375fd05fa679e5b091a8973b745869aa9b8",
+    "solar/blend.py": "e11429356e5e9d722be2a16dba5f1a9f4ae8a5365c3a1b4ee366a7864efccfae",
+    "solar/crop_refiner.py": "ed5f9a14ec02a9823ff4035b00fbe11d02358987b57542bb34e9d89a67ec2bba",
+    "solar/external_data_policy.py": "0ea46214de1d00457b5522d240bc4548a4ada7d60a968e23562da01e716d839b",
+    "solar/incumbent_component_pruning.py": "1fb060b1828b3773f5c48f1f219b38871b2cb6b2b0cf45fa2e0add7c1cfbdcb4",
+    "solar/incumbent_probability_cut.py": "d268061277c2422e21a966b0342212e4f173ec230c982f9997e49e28e00cc0f3",
+    "solar/maskrcnn_training_data.py": "5233259cb98e7b208bb6675d0a2522fd40435a1a8e2ef81a2e7ef2b26eb81bdc",
+    "solar/metrics.py": "3cc471864717058140c4be5970976f8ee351af206f1a9b705d3806bfa63e6793",
+    "solar/native_full707_data.py": "b9428a3352803bc9b6088fd9efe24949a76ee5f53e9ce60b042c88c2dbc5338e",
+    "solar/native_full707_index.py": "6f05f38a224fe11efbfbc4a4734d9c827e1d1c5e454c871e752531b941a3f221",
+    "solar/native_full707_release.py": "34c23ebddae9cef3e41cc1d61e52ab3f5a3318a33122cef729a0ce17bd534183",
+    "solar/native_full707_training.py": "d6a4edc6aa333ae06f81543f38d08f3bdbab76f34feb3be7f149d886f9a1473e",
+    "solar/native_maskrcnn_data.py": "85d63cb810900673af28e372c20a893b5d52ec9dca0506843481c11c2eba5b4f",
+    "solar/owned_refined_export.py": "7cb2cc0dc749023a1d5c394ac63964873428a3e3a24cdaaaf76e0681447c4416",
+    "solar/refiner_transfer.py": "8cba4820d758ecef9346fbba40e0b7cf25607b5621be5a2ad25c6d7d33ff6c2f",
+    "solar/rfdetr_checkpoint.py": "d97de41301a22bd83d3164118e0290f73fd772e617afd1b64465d599eec271fb",
+    "solar/soft_unet.py": "2d82a20c4a0369d175fd6120d55941c8556d1510565c9421b6712f3ac7e1f303",
+    "solar/torchvision_native_maskrcnn.py": "bd25db408685b91f38099f313494185a1b89ef388933fda3b80c4ae6ee880671",
+    "solar/yolo_full_run.py": "39e88348883a1c2be46271cfc967c513d43de8513d1236ac82a67ef3ec480eab",
+    "solar/yolo_labels.py": "c7a4446e77b9ef22219b4968d4e0f3099b8e4c3662db6bf6cedd5184fb8425fe",
+    "solar/yolo_run.py": "fd66d813e72fb7d9b138ce2747903d4b7d73c7a997d3e18bc75211bdd77ea362",
+    "solar/__init__.py": "23998c1adf69da79e1cd996e32be1ada461948ab3b8bdb0c69c20dd56058b086",
+    "solar/native_four_flip_geometry.py": "dcdb1c3614a2f5309490cdf643730d7bfee80a1bedc4c38d2940b94897e4a324",
+    "solar/native_maskrcnn_evaluation.py": "81c92d8752ad85205b3edce230dde1ead8a16f93670e4944ddad4f4c4f93716c",
+    "solar/native_maskrcnn_four_flip.py": "33218dcb3663ee7e067b40d42ee3770ca41e2b0045e65e658efd48f48552cbb6",
+    "solar/sparse_vote.py": "d76470d9fd4c2f502bdc1a2acaaa7120b6d00ee659dcb915e0204ea4e74c13b2",
+    "scripts/__init__.py": "0f64223a0b790dbbed51e36d8485fff73502690881dd6d35156016ef68d8bdc4",
+    "scripts/audit_submission.py": "cb4e63cdaa84c69bc6a90ca4391137e351dbc00efa9b779b3d77efbff63dbd17",
+    "scripts/audit_public_csv.py": "046783851a4715aa66858fbb4ef3529db946d0725174554155be448fe6367616",
+    "scripts/eval_yolo_ensemble.py": "3b6b24a7ab0f9bd19bf79027b89f3e9967b4b1d0d9b95b9cd3c498992f96ecc0"
+  },
+  "role": "Owned 0.39 reproduction candidate, not the HDJoJo 0.57 entry",
+  "assets_sha256": {
+    "configs/partition.json": "b199dc90252739e984e0745cb81f2d8c1ed461abffc7a6a8ce6809311ad29653",
+    "configs/partition-full707.json": "e51a0b69c69f65f37c0191b2f1e48b4898a2794e1f05caa70372d9101d172577",
+    "configs/target-selection.json": "ab0613f7ff0e20689073068c0b05abd7525e9c2244b626177265f59475ee64b6",
+    "configs/gong-neighbour-quality-20261026.json": "12244c2d13cc7c84423a24a28f42cc6edf40f0aa10f2c29d480c67c0209729bf",
+    "configs/owned-native-full707-v2-60epoch-20261024.json": "a2f35480225bcef70608a446f7dc61760fecf8ad83696226f1dfb2cbb3c6ecaf",
+    "configs/month-replication-fold0.json": "c672a33754e4be9e053e3131960e37481b8a08fa44581dfd3ed646cc2b04e462",
+    "configs/full-refit-partition.json": "e325c1ef0e0a547ff80ba47b6d833932a37fa97a77b23458b7af4c2af99000bb",
+    "configs/target-selection-full707.json": "0bb7a553d28d237b12b34bffc6d2262bb38b4ba5e9e3868f829b8f6ff2517494",
+    "training-provenance/training-recipes.json": "435803339888e8049c394e7f63464008387dc1b45703d25b2dcfed7731daefea",
+    "training-provenance/long565-historical-protocol.json": "0533ffc50a0a0f1290ed535941e0d1dbe1b283963e8917e6bb9e1b68bcb62190",
+    "training-provenance/full707-neighbours-historical-protocol.json": "f9dbcd79306a09bb95b0583c6ec9f253d1124c0b6577ed06e64b4bc2d50cc751",
+    "training-provenance/deploy707-historical-protocol.json": "9a605e1470157971660fa4f3aa20363e72bd404c8fa089f0a03e621bc2d40518",
+    "training-provenance/allann565-s1-historical-protocol.json": "fd606400fbe12a6d6aecdab28ea6497911330d1ac735ec4ccf547eaaf62bad60",
+    "training-provenance/allann565-s2-historical-protocol.json": "7381bd0a676f65be485f42ab475817503a948a2b593f062c80dfcb9f86f1f221",
+    "training-provenance/union565-historical-protocol.json": "82c99a3cd83ee3a7a1d534647df776bcea0b2da1b5f1641b5c0041b9789fcbf6",
+    "training-provenance/v8x565-historical-protocol.json": "216ee0749e49f8dbd1d56398b679a8033ece62ae0c13c97dd65882babebcec77",
+    "training-provenance/maskrcnn707-fourflip-historical-protocol.json": "a2f35480225bcef70608a446f7dc61760fecf8ad83696226f1dfb2cbb3c6ecaf",
+    "training-provenance/b0a-historical-protocol.json": "11ea8fa8d4a758029878a3fba2f3f6ba715f3cbc6ffe9e024815370586ba88f1",
+    "training-provenance/b0a-continuation-protocol.json": "130a8c300dc38d74268d4e0cd50697bc8a56dfc531a8249dad29491859ea07c4",
+    "training-provenance/b0b-historical-protocol.json": "11ea8fa8d4a758029878a3fba2f3f6ba715f3cbc6ffe9e024815370586ba88f1",
+    "training-provenance/b0b-continuation-protocol.json": "c108809021faf594604b33937024a0f991a557e1889e8a2f179bf18ec556c695",
+    "training-provenance/r34-historical-protocol.json": "7152c38448bd82ef34560a74fcf475a201d583da0a38dc0626d18592862fbb1e",
+    "training-provenance/gong-historical-manifest.json": "7a97c39c250de6f601043b720108b926093b99198abba6f15ad2e8b67e0edffd",
+    "training-provenance/gong-historical-frames.json": "7209a68f47322da09e5320b493c7c237336a71775ba329c43f5c2e731bde3f84",
+    "licenses/smp-LICENSE.txt": "e4a7145753ebccec4fb6ed4aaec591bf19e11eada469137710c7e30851b2484e",
+    "licenses/timm-LICENSE.txt": "d3a69cc705aaa2f1baa80c8d1e33b1917f1d5c927fe9a3d98364f7c94e59bd06",
+    "licenses/torchvision-LICENSE.txt": "6efe05cff209c333eb55dbfc3df6d3894d565435ea03a8af0ab3b22b7b102b8c",
+    "licenses/ultralytics-LICENSE.txt": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
+    "reproduce_owned.ipynb": "657f95706b9e08e4a7f1626fde472648d7d6eceb26acc84213776454857c891b",
+    "requirements.txt": "0c0109252266a69a68f62e092f1688b8aa15a150dfbb7d91cc50bcb27688fdf8",
+    "requirements-training.txt": "f351097cce3c96f7985c7d1956228ed86185a20445d819ca60e4bf0b7871fea2",
+    "README.md": "4ee3114d583653fe4ce73ee77c9863ebbe2ff61ef1d445b15a3d31dc4128c2a0",
+    "technical-report.pdf": "22d32ec0a11613332fcc18bf93f6c13c71b0f57b664f03747fd8e91962251723",
+    "LICENSE": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
+    "THIRD_PARTY_NOTICES.md": "34acaa0d94b0dea692328a72e5cc91bbdf266a2ee6936b53f62192b608dc7498",
+    "weights-location.json": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+  }
+}

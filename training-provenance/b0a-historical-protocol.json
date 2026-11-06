@@ -1,0 +1,22 @@
+{
+  "encoder": "timm-efficientnet-b0",
+  "crop_shape": [
+    128,
+    512
+  ],
+  "input_channels": [
+    "normalized_gray",
+    "detector_seed"
+  ],
+  "planned_steps": 6000,
+  "seconds_limit": 2700,
+  "target": "conditional matched-expert soft mask",
+  "data_audit": {
+    "physical_training_images": 565,
+    "instance_crops": 4147,
+    "target": "Mean morphology across matched official expert instances, conditional on presence",
+    "annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+    "partition_sha256": "b199dc90252739e984e0745cb81f2d8c1ed461abffc7a6a8ce6809311ad29653",
+    "test_or_validation_labels_used_for_training": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "base": "HDJoJo original public v2 output, confirmed PQ 0.55",
+  "base_csv_sha256": "7e6570382c620ce402bb0048336a319cd1a590bb08facb66bec3729c622de7e4",
+  "refiner_initial_checkpoint_sha256": "75efc3a09722118f8d5387d0b6544586413bc8bf1ec0a0ef08c0debf2886be7a",
+  "refiner_reference_public_pq": 0.55,
+  "training_images": 707,
+  "initial_training_images": 565,
+  "additional_steps": 3000,
+  "encoder": "timm-efficientnet-b0",
+  "seed": 20261023,
+  "learning_rate": 5e-05,
+  "target": "Conditional soft morphology of matched official expert instances",
+  "threshold": 0.5,
+  "prior_weight": 0.0,
+  "original_contour_weight": 0.5,
+  "checkpoint_selection": "Fixed final EMA",
+  "independent_validation_score_after_full_data_fitting": null,
+  "test_labels_or_pseudo_labels_used_for_training": false,
+  "submissions_enabled": false,
+  "torch": "2.11.0+cu128"
+}
