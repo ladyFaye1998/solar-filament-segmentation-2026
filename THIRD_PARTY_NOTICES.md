@@ -34,5 +34,7 @@ weights have not been recovered. This bundle contains the participant-trained
 eleven-model 0.39 pipeline. The inherited historical 565/132 partition is retained
 for provenance and is not represented as a newly unbiased whole-month holdout.
 
-This local candidate has not been publicly released or submitted as a final
-award package. Public hosting and complete clean execution remain review gates.
+This candidate has not been publicly released or submitted as a final
+award package. The unchanged notebook code cells completed the clean default
+installer and all 180 images with included weights; anonymous public weight
+fetching, final selection and the organizer form remain review gates.

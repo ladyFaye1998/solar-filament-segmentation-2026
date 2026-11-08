@@ -148,13 +148,17 @@
     "licenses/timm-LICENSE.txt": "d3a69cc705aaa2f1baa80c8d1e33b1917f1d5c927fe9a3d98364f7c94e59bd06",
     "licenses/torchvision-LICENSE.txt": "6efe05cff209c333eb55dbfc3df6d3894d565435ea03a8af0ab3b22b7b102b8c",
     "licenses/ultralytics-LICENSE.txt": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
-    "reproduce_owned.ipynb": "657f95706b9e08e4a7f1626fde472648d7d6eceb26acc84213776454857c891b",
+    "reproduce_owned.ipynb": "f84dc6cd5670ed5423a94692fdd1b505bf1e73862e712a0f366689bec80ef3e2",
     "requirements.txt": "0c0109252266a69a68f62e092f1688b8aa15a150dfbb7d91cc50bcb27688fdf8",
     "requirements-training.txt": "f351097cce3c96f7985c7d1956228ed86185a20445d819ca60e4bf0b7871fea2",
-    "README.md": "6bb64c32a085f6f4bed4321b9cd6eba2562dcf75f027c3ffb4d6efd15354d8c4",
-    "technical-report.pdf": "22d32ec0a11613332fcc18bf93f6c13c71b0f57b664f03747fd8e91962251723",
+    "README.md": "5424a38bfe861929d7cef15a0e9bd251966c1da448051ca1fb1e9db16feaecf5",
+    "technical-report.pdf": "abeb071378e44cb64140fda0bccba69ebafeb8e58679c286873e41fb92c17409",
     "LICENSE": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
-    "THIRD_PARTY_NOTICES.md": "34acaa0d94b0dea692328a72e5cc91bbdf266a2ee6936b53f62192b608dc7498",
-    "weights-location.json": "9254c2065ded0debe4d599b78c1380f1502d4638b09c1caf9bfd7f1d9d65ffad"
+    "THIRD_PARTY_NOTICES.md": "d9cc5de74723b7af9880b2ff09eea660a50ab52698abcb518ee9c91fe274aecf",
+    "weights-location.json": "9254c2065ded0debe4d599b78c1380f1502d4638b09c1caf9bfd7f1d9d65ffad",
+    "RELEASE_STATUS.json": "95573ffb13aa10534304f9ff6d59e6635cb42116aaf349d5ffbdea1d0be37b99",
+    "verification/clean-notebook.json": "9712f2066677f48b6eaad6dae53f101f099b16cd250284f8b6e756930c1ba0c6",
+    "verification/report-review.json": "bf1cd654b2437d1e0a5a430de38530f668df33ed9b3535b4d37e4c93b8b70ca7",
+    "verification/scored-replay.json": "eaf3c1d37532dca89d3d81f10b966c1046046c8539b60c19923aad731fafa5bf"
   }
 }
