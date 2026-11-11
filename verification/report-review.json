@@ -1,9 +1,17 @@
 {
-  "original_review_sha256": "cc5479ee0245e088a91f6dad40912d198325e47030fd6d0d3c14a7001c9222b4",
-  "report_sha256": "abeb071378e44cb64140fda0bccba69ebafeb8e58679c286873e41fb92c17409",
+  "reviewed_at_utc": "2026-11-11T21:00:24.634651+00:00",
+  "submission": 58067341,
+  "report_sha256": "5e37ffe0b8094e70218c0bf0d62e7eea8c9e7af205aad4564c1bd5acdc043dbc",
   "pages": 4,
   "official_template_preamble_unchanged": true,
+  "required_introduction_and_acknowledgment_unchanged": true,
   "all_four_pages_visually_reviewed": true,
-  "overfull_boxes": 0,
-  "status": "Reviewed draft; final method selection and organizer submission pending"
+  "no_clipping_or_overlap": true,
+  "rendered_pages": {
+    "page-1": "18b36c827888a686ce04123931beda188784d3159f366a5eb21f8d77114759a2",
+    "page-2": "552b1ecdb13470825c69d5f3d2f89205dc311ee4a501542d305b76ae4794477f",
+    "page-3": "0aac3ef51d09f0c03d7d79807b1b0a15981af8e4121d66dc145e3983617f7828",
+    "page-4": "b9b1d80951a07de0c8efa4bc7332843e8e2e1a60980708c1c74bc6dacfc53c66"
+  },
+  "tex_vertical_box_warning_pt": 1.541
 }
