@@ -1,0 +1,56 @@
+{
+  "root_verified_at_utc": "2026-11-06T23:52:14.188453+00:00",
+  "full_180_default_installer_notebook_verified": true,
+  "default_install_variable_unset": true,
+  "scientific_dependencies_absent_before_execution": true,
+  "isolated_new_venv": true,
+  "shared_python_packages_changed": false,
+  "all_requirement_pins_verified": true,
+  "notebook_source_cells_unchanged": true,
+  "all_five_code_cells_completed_without_error": true,
+  "all_eleven_weights_and_code_assets_rehashed": true,
+  "source_notebook_sha256": "657f95706b9e08e4a7f1626fde472648d7d6eceb26acc84213776454857c891b",
+  "executed_notebook_sha256": "b5d3763ee0ee875dc8af9c16c96afa70cda200d05d8e6aeb2a3cede81fdfb673",
+  "model_manifest_sha256": "aaa8968ea6d702666a8cf5d1f6aca2094ae42e688e108fe07c42538c5e2ac1b1",
+  "elapsed_seconds": 2796.078999999998,
+  "images": 180,
+  "detectors": 8,
+  "refiners": 3,
+  "csv_integrity": {
+    "inferred_images": 180,
+    "instances": 1270,
+    "negative_images": [
+      "20211214174010Mh"
+    ],
+    "native_shape": [
+      2048,
+      2048
+    ],
+    "nonempty_instances": true,
+    "disjoint_instances": true,
+    "csv_rows": 1270,
+    "csv_sha256": "83139e60ad3392fbdf4c06e1a287fdfe78c79dc23d7c31114934f97c3119bbff",
+    "predictions_sha256": "7e5cb309bf4c6129ce44f8b8f1d4400093ee1302ad9cdcf4da1ce8513992e0a5",
+    "csv_matches_inference_records": true,
+    "csv_roundtrips_at_native_resolution": true
+  },
+  "notebook_csv_sha256": "83139e60ad3392fbdf4c06e1a287fdfe78c79dc23d7c31114934f97c3119bbff",
+  "notebook_predictions_sha256": "7e5cb309bf4c6129ce44f8b8f1d4400093ee1302ad9cdcf4da1ce8513992e0a5",
+  "mask_set_agreement_with_separately_scored_replay": {
+    "pq": 1.0,
+    "sq": 1.0,
+    "rq": 1.0,
+    "sum_iou": 1270.0,
+    "tp": 1270,
+    "fp": 0,
+    "fn": 0
+  },
+  "agreement_is_fidelity_not_accuracy": true,
+  "separately_scored_replay_submission": 58067341,
+  "separately_scored_replay_public_score": 0.39,
+  "new_csv_submitted": false,
+  "new_csv_score_measured": false,
+  "anonymous_public_fetch_verified": false,
+  "award_eligibility_certified": false,
+  "submission": false
+}

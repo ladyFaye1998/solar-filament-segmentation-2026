@@ -1,0 +1,11 @@
+{
+  "original_receipt_sha256": "76ed698623b9e6344442ed564b6a856ba693776f002a659164bd802ee85db14f",
+  "submission_ref": 58067341,
+  "status": "COMPLETE",
+  "public_score": 0.39,
+  "CSV_SHA256": "83139e60ad3392fbdf4c06e1a287fdfe78c79dc23d7c31114934f97c3119bbff",
+  "same_eleven_weights_as_release": true,
+  "clean_default_notebook_reproduces_CSV_exactly": true,
+  "new_submission_created": false,
+  "original_private_HDJoJo_detector_reproduced": false
+}

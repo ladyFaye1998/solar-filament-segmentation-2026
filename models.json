@@ -118,7 +118,7 @@
     "scripts/audit_public_csv.py": "046783851a4715aa66858fbb4ef3529db946d0725174554155be448fe6367616",
     "scripts/eval_yolo_ensemble.py": "3b6b24a7ab0f9bd19bf79027b89f3e9967b4b1d0d9b95b9cd3c498992f96ecc0"
   },
-  "role": "Owned 0.39 reproduction candidate, not the HDJoJo 0.57 entry",
+  "role": "Reproduction package for Kaggle submission 58067341",
   "assets_sha256": {
     "configs/partition.json": "b199dc90252739e984e0745cb81f2d8c1ed461abffc7a6a8ce6809311ad29653",
     "configs/partition-full707.json": "e51a0b69c69f65f37c0191b2f1e48b4898a2794e1f05caa70372d9101d172577",
@@ -148,13 +148,17 @@
     "licenses/timm-LICENSE.txt": "d3a69cc705aaa2f1baa80c8d1e33b1917f1d5c927fe9a3d98364f7c94e59bd06",
     "licenses/torchvision-LICENSE.txt": "6efe05cff209c333eb55dbfc3df6d3894d565435ea03a8af0ab3b22b7b102b8c",
     "licenses/ultralytics-LICENSE.txt": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
-    "reproduce_owned.ipynb": "657f95706b9e08e4a7f1626fde472648d7d6eceb26acc84213776454857c891b",
+    "reproduce_owned.ipynb": "769660aa70cb2a1f60843d8119fd8aec0e5b07a7bca8675009f54926fd578bd4",
     "requirements.txt": "0c0109252266a69a68f62e092f1688b8aa15a150dfbb7d91cc50bcb27688fdf8",
     "requirements-training.txt": "f351097cce3c96f7985c7d1956228ed86185a20445d819ca60e4bf0b7871fea2",
-    "README.md": "6bb64c32a085f6f4bed4321b9cd6eba2562dcf75f027c3ffb4d6efd15354d8c4",
-    "technical-report.pdf": "22d32ec0a11613332fcc18bf93f6c13c71b0f57b664f03747fd8e91962251723",
+    "README.md": "c4c024fc9dbc6d65a43cb7933241e318662fd9c95a96eefa37b73edb71056578",
+    "technical-report.pdf": "5e37ffe0b8094e70218c0bf0d62e7eea8c9e7af205aad4564c1bd5acdc043dbc",
     "LICENSE": "e9df4c4e4e64b8168a71c3c67668dcffabbe8fca11d4ac4a7d5482562cd1679c",
-    "THIRD_PARTY_NOTICES.md": "34acaa0d94b0dea692328a72e5cc91bbdf266a2ee6936b53f62192b608dc7498",
-    "weights-location.json": "9254c2065ded0debe4d599b78c1380f1502d4638b09c1caf9bfd7f1d9d65ffad"
+    "THIRD_PARTY_NOTICES.md": "b0ffe2e68583246f8c3df84c099468372e1fd01c00a5649c60e3fed291747a52",
+    "weights-location.json": "9254c2065ded0debe4d599b78c1380f1502d4638b09c1caf9bfd7f1d9d65ffad",
+    "RELEASE_STATUS.json": "8f7014f41342e5ce9d35d37311ec47d7d17907057bb3eb094d66f5445e74a1cf",
+    "verification/clean-notebook.json": "9712f2066677f48b6eaad6dae53f101f099b16cd250284f8b6e756930c1ba0c6",
+    "verification/report-review.json": "8793ae20b3fdd1c3d6e7dd7248f534f2f2ea6e07f045b4f5d7067bf0890a33ec",
+    "verification/scored-replay.json": "eaf3c1d37532dca89d3d81f10b966c1046046c8539b60c19923aad731fafa5bf"
   }
 }

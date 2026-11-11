@@ -33,6 +33,3 @@ The separate HDJoJo-derived 0.57 entry is not included. Its private detector
 weights have not been recovered. This bundle contains the participant-trained
 eleven-model 0.39 pipeline. The inherited historical 565/132 partition is retained
 for provenance and is not represented as a newly unbiased whole-month holdout.
-
-This local candidate has not been publicly released or submitted as a final
-award package. Public hosting and complete clean execution remain review gates.

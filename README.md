@@ -1,30 +1,35 @@
 # Solar filament instance segmentation
 
-This private preview preserves the participant-trained eleven-weight baseline.
-A fresh full 180-image neural replay scored public PQ **0.39** on 6 November
-2026 (submission 58067341). The separate historical 0.57 entry depends on an
-unavailable private detector and is not reproduced by this source.
+This package reproduces Kaggle submission **58067341**, which scored **0.39
+public panoptic quality** in the Solar Filament Segmentation Challenge 2026.
+The [four-page technical report](technical-report.pdf) documents the model,
+training data, postprocessing and validation.
 
-Run `reproduce_owned.ipynb` with the official competition data and this source.
-The notebook loads included weights or fetches missing weights automatically
-from `weights-location.json`, verifies their sizes and SHA-256 hashes, and runs
-JPEG-only inference. Release assets and this repository are currently private;
-unauthenticated automatic downloading has not been verified. A complete clean
-default notebook run is still pending. See `RELEASE_STATUS.json` for the exact
-scope of the existing verification.
+## Reproduce the predictions
 
-The default runs all 180 test images. Set `FILAMENT_DATA` and `FILAMENT_BUNDLE`
-if needed. GPU refinement uses float32 without autocast or TF32. The notebook
-also includes preprocessing, optional training and expert-record evaluation.
-The report is a four-page review draft, not a final selected award method.
+1. Obtain the official competition data and extract `MAGFiLO_1.0_Kaggle_2026`.
+2. Open `reproduce_owned.ipynb` from this repository in a Python 3.12 environment.
+   Set `FILAMENT_DATA` to the extracted data directory when running outside
+   Kaggle. Set `FILAMENT_BUNDLE` to the repository directory if the notebook
+   runs from another working directory.
+3. Run the notebook. Its default installer uses the pinned `requirements.txt`
+   and `requirements-training.txt`. The bootstrap fetches eleven checkpoints
+   from this repository's `owned-baseline-20261106` release and checks each
+   file's size and SHA-256. The default inference processes all 180 test JPEGs
+   and writes `submission.csv` in the printed output directory.
 
-Source is AGPL-3.0; preserve `LICENSE`, `THIRD_PARTY_NOTICES.md` and `licenses/`.
-Competition images, annotations, GONG frames, credentials and prediction tables
-are not bundled. Historical training metadata and data-selection identifiers
-are included for provenance. Exact retraining byte identity is not promised.
+The verified run used CUDA with float32 refinement, autocast disabled and TF32
+disabled. It completed in 46.6 minutes in a fresh environment and produced
+1,270 disjoint instances. Its CSV matches Kaggle's stored submission byte for
+byte. The expected CSV SHA-256 is
+`83139e60ad3392fbdf4c06e1a287fdfe78c79dc23d7c31114934f97c3119bbff`.
+See `verification/clean-notebook.json` and `verification/scored-replay.json`.
 
-The frozen Kaggle V3 bundle is preserved separately. This hosting variant only
-changes the README and weight locations, with corresponding manifest hashes.
-New native-model and GONG experiments are still running and are not selected
-or included here. Final model choice, public access and competition disclosure,
-complete clean execution, final report and the organizer form remain pending.
+The notebook includes optional training and official-label evaluation cells.
+Training recipes, partitions and external GONG frame identifiers are recorded
+in `training-provenance/` and `configs/`. The historical 565/132 split and the
+later 524/183 whole-month comparisons are distinct evaluation cohorts.
+
+Source is AGPL-3.0. See `LICENSE`, `THIRD_PARTY_NOTICES.md` and `licenses/`.
+Obtain competition data and external GONG observations under their respective
+source terms.
